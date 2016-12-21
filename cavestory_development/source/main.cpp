@@ -1,8 +1,14 @@
+// Main.cpp
+// The entry point of the program
+
+#include "../headers/game.h"
 #include <stdio.h>
 #include <iostream>
-#include <SDL2/SDL.h>
 
 int main(int argc, const char* argv[]){
-	printf("Hi\n");
-	return 0;
+  Game game; 
+  printf("Hello\n");
+  return 0; 
 }
+
+
